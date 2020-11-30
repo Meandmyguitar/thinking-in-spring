@@ -12,12 +12,12 @@
         https://www.springframework.org/schema/util/spring-util.xsd">
 
     <!-- 3. 将其声明为 Spring Bean -->
-    <bean class="org.geekbang.thinking.in.spring.conversion.CustomizedPropertyEditorRegistrar"/>
+    <bean class="com.wzp.spring.conversion.CustomizedPropertyEditorRegistrar"/>
 
     <!-- 声明 ConversionServiceFactoryBean 并且 name 必须为 "conversionService" -->
     <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
         <property name="converters">
-            <bean class="org.geekbang.thinking.in.spring.conversion.PropertiesToStringConverter"/>
+            <bean class="com.wzp.spring.conversion.PropertiesToStringConverter"/>
         </property>
     </bean>
 
@@ -27,7 +27,7 @@
         <prop key="name">mercyblitz</prop>
     </util:properties>
 
-    <bean id="user" class="org.geekbang.thinking.in.spring.ioc.overview.domain.User">
+    <bean id="user" class="com.wzp.spring.ioc.overview.domain.User">
         <property name="id" value="1"/>
         <property name="name" value="小马哥"/>
         <property name="context"> <!-- Properties 类型 -->

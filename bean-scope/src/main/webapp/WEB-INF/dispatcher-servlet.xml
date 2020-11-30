@@ -9,7 +9,7 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 激活 Spring 注解驱动 -->
-    <context:component-scan base-package="org.geekbang.thinking.in.spring.ioc.bean.scope"/>
+    <context:component-scan base-package="com.wzp.demo.thinking.in.spring.ioc.bean.scope"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/"/>

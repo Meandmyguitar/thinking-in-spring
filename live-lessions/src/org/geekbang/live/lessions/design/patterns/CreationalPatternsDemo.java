@@ -1,4 +1,4 @@
-package org.geekbang.live.lessions.design.patterns;
+package com.wzp.demo.live.lessions.design.patterns;
 
 import java.util.Arrays;
 import java.util.List;
