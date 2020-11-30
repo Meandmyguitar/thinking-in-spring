@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/i18n/i18n.iml" filepath="$PROJECT_DIR$/i18n/i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/ioc-container-overview/ioc-container-overview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/live/live.iml" filepath="$PROJECT_DIR$/live/live.iml" />
       <module fileurl="file://$PROJECT_DIR$/questions/questions.iml" filepath="$PROJECT_DIR$/questions/questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/spring-bean/spring-bean.iml" />

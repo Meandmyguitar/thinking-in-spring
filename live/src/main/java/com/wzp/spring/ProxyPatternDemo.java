@@ -1,4 +1,4 @@
-package com.wzp.demo.live.lessions.design.patterns;
+package com.wzp.spring;
 
 import java.io.Closeable;
 import java.lang.reflect.InvocationHandler;

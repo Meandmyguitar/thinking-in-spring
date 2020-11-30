@@ -31,6 +31,7 @@
         <module>questions</module>
         <module>aop-overview</module>
         <module>aop-features</module>
+        <module>live</module>
     </modules>
 
     <properties>

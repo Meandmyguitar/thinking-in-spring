@@ -1,4 +1,4 @@
-package com.wzp.demo.live.lessions.design.patterns;
+package com.wzp.spring;
 
 import java.util.Arrays;
 import java.util.List;

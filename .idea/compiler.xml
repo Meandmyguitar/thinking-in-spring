@@ -25,6 +25,7 @@
         <module name="bean-scope" />
         <module name="ioc-container-overview" />
         <module name="validation" />
+        <module name="live" />
         <module name="aop-overview" />
         <module name="conversion" />
       </profile>
@@ -47,6 +48,7 @@
       <module name="generic" target="1.8" />
       <module name="i18n" target="1.8" />
       <module name="ioc-container-overview" target="1.8" />
+      <module name="live" target="1.7" />
       <module name="questions" target="1.8" />
       <module name="resource" target="1.8" />
       <module name="spring-bean" target="1.8" />
