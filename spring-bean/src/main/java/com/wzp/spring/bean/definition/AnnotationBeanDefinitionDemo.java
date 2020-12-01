@@ -63,7 +63,7 @@ public class AnnotationBeanDefinitionDemo {
         BeanDefinitionBuilder beanDefinitionBuilder = genericBeanDefinition(User.class);
         beanDefinitionBuilder
                 .addPropertyValue("id", 1L)
-                .addPropertyValue("name", "小马哥");
+                .addPropertyValue("name", "小帅哥");
 
         // 判断如果 beanName 参数存在时
         if (StringUtils.hasText(beanName)) {
@@ -88,11 +88,11 @@ public class AnnotationBeanDefinitionDemo {
         /**
          * 通过 Java 注解的方式，定义了一个 Bean
          */
-        @Bean(name = {"user", "xiaomage-user"})
+        @Bean(name = {"user", "xiaoshuaige-user"})
         public User user() {
             User user = new User();
             user.setId(1L);
-            user.setName("小马哥");
+            user.setName("小帅哥");
             return user;
         }
     }

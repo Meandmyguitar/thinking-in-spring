@@ -35,7 +35,7 @@ public class EnvironmentPropertySourceChangeDemo {
     @Value("${user.name}")  // 不具备动态更新能力
     private String userName;
 
-    // PropertySource("first-property-source") { user.name = 小马哥}
+    // PropertySource("first-property-source") { user.name = 小帅哥}
     // PropertySource( Java System Properties) { user.name = mercyblitz }
 
     public static void main(String[] args) {
@@ -50,7 +50,7 @@ public class EnvironmentPropertySourceChangeDemo {
         MutablePropertySources propertySources = environment.getPropertySources();
         // 动态地插入 PropertySource 到 PropertySources 中
         Map<String, Object> source = new HashMap<>();
-        source.put("user.name", "小马哥");
+        source.put("user.name", "小帅哥");
         MapPropertySource propertySource = new MapPropertySource("first-property-source", source);
         propertySources.addFirst(propertySource);
 

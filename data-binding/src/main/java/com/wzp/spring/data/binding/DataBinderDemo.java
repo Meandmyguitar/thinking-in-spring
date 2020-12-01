@@ -44,7 +44,7 @@ public class DataBinderDemo {
         // 2. 创建 PropertyValues
         Map<String, Object> source = new HashMap<>();
         source.put("id", 1);
-        source.put("name", "小马哥");
+        source.put("name", "小帅哥");
 
         // a. PropertyValues 存在 User 中不存在属性值
         // DataBinder 特性一 : 忽略未知的属性

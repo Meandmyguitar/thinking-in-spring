@@ -77,7 +77,7 @@ public class ObjectFactoryLazyLookupDemo {
     public static User user() {
         User user = new User();
         user.setId(1L);
-        user.setName("小马哥");
+        user.setName("小帅哥");
         return user;
     }
 }

@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/live/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-lessions/src/org/geekbang/live/lessions/design/patterns/CreationalPatternsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/live/src/main/java/com/wzp/demo/CreationalPatternsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-lessions/src/org/geekbang/live/lessions/design/patterns/ProxyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/live/src/main/java/com/wzp/demo/ProxyPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -77,6 +74,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.overview.dependency.lookup.DependencyLookupDemo" />
+      <module name="ioc-container-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzp.spring.ioc.overview.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -90,6 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DependencyLookupDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +115,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606702003252</updated>
       <workItem from="1606702004379" duration="1993000" />
-      <workItem from="1606704088789" duration="924000" />
+      <workItem from="1606704088789" duration="1945000" />
+      <workItem from="1606717339771" duration="26000" />
+      <workItem from="1606721139697" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606702790080</created>
@@ -123,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606705455464</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring">
+      <created>1606705736733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606705736733</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,38 +167,39 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="189" y="-1025" key="CommitChangelistDialog2" timestamp="1606705454826">
+    <state x="189" y="-1025" key="CommitChangelistDialog2" timestamp="1606705736567">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="189" y="-1025" key="CommitChangelistDialog2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705454826" />
-    <state width="1866" height="262" key="GridCell.Tab.0.bottom" timestamp="1606705598187">
+    <state x="189" y="-1025" key="CommitChangelistDialog2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705736567" />
+    <state width="1866" height="262" key="GridCell.Tab.0.bottom" timestamp="1606717318409">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.bottom/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705598187" />
-    <state width="1866" height="262" key="GridCell.Tab.0.center" timestamp="1606705598187">
+    <state width="1866" height="262" key="GridCell.Tab.0.bottom/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318409" />
+    <state width="1866" height="262" key="GridCell.Tab.0.center" timestamp="1606717318407">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.center/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705598187" />
-    <state width="1866" height="262" key="GridCell.Tab.0.left" timestamp="1606705598186">
+    <state width="1866" height="262" key="GridCell.Tab.0.center/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318407" />
+    <state width="1866" height="262" key="GridCell.Tab.0.left" timestamp="1606717318405">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.left/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705598186" />
-    <state width="1866" height="262" key="GridCell.Tab.0.right" timestamp="1606705598187">
+    <state width="1866" height="262" key="GridCell.Tab.0.left/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318405" />
+    <state width="1866" height="262" key="GridCell.Tab.0.right" timestamp="1606717318408">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.right/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705598187" />
+    <state width="1866" height="262" key="GridCell.Tab.0.right/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318408" />
     <state x="44" y="-1057" key="SettingsEditor" timestamp="1606705662401">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
     <state x="44" y="-1057" key="SettingsEditor/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705662401" />
     <state x="112" y="23" key="SettingsEditor/-105.-1057.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1606702030569" />
-    <state x="355" y="-866" key="Vcs.Push.Dialog.v2" timestamp="1606705456666">
+    <state x="355" y="-866" key="Vcs.Push.Dialog.v2" timestamp="1606705737972">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="355" y="-866" key="Vcs.Push.Dialog.v2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705456666" />
+    <state x="355" y="-866" key="Vcs.Push.Dialog.v2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705737972" />
     <state x="635" y="-625" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606703967850">
       <screen x="-105" y="-1057" width="1920" height="1057" />
     </state>

@@ -41,7 +41,7 @@ public class BeanConfigurationMetadataDemo {
         // 获取 AbstractBeanDefinition
         AbstractBeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
         // 附加属性（不影响 Bean populate、initialize）
-        beanDefinition.setAttribute("name", "小马哥");
+        beanDefinition.setAttribute("name", "小帅哥");
         // 当前 BeanDefinition 来自于何方（辅助作用）
         beanDefinition.setSource(BeanConfigurationMetadataDemo.class);
 
@@ -54,7 +54,7 @@ public class BeanConfigurationMetadataDemo {
                     BeanDefinition bd = beanFactory.getBeanDefinition(beanName);
                     if (BeanConfigurationMetadataDemo.class.equals(bd.getSource())) { // 通过 source 判断来
                         // 属性（存储）上下文
-                        String name = (String) bd.getAttribute("name"); // 就是 "小马哥"
+                        String name = (String) bd.getAttribute("name"); // 就是 "小帅哥"
                         User user = (User) bean;
                         user.setName(name);
                     }

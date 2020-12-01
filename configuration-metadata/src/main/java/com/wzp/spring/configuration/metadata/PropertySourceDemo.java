@@ -36,7 +36,7 @@ import java.util.Map;
 public class PropertySourceDemo {
 
     /**
-     * user.name 是 Java Properties 默认存在，当前用户：mercyblitz，而非配置文件中定义"小马哥"
+     * user.name 是 Java Properties 默认存在，当前用户：mercyblitz，而非配置文件中定义"小帅哥"
      *
      * @param id
      * @param name
@@ -56,7 +56,7 @@ public class PropertySourceDemo {
         // 扩展 Environment 中的 PropertySources
         // 添加 PropertySource 操作必须在 refresh 方法之前完成
         Map<String, Object> propertiesSource = new HashMap<>();
-        propertiesSource.put("user.name", "xiaomage");
+        propertiesSource.put("user.name", "xiaoshuaige");
         org.springframework.core.env.PropertySource propertySource = new MapPropertySource("first-property-source", propertiesSource);
         context.getEnvironment().getPropertySources().addFirst(propertySource);
 

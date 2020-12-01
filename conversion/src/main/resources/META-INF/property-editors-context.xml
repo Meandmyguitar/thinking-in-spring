@@ -29,7 +29,7 @@
 
     <bean id="user" class="com.wzp.spring.ioc.overview.domain.User">
         <property name="id" value="1"/>
-        <property name="name" value="小马哥"/>
+        <property name="name" value="小帅哥"/>
         <property name="context"> <!-- Properties 类型 -->
             <value>
                 id = 1
