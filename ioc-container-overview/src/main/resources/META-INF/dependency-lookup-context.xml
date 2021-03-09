@@ -18,22 +18,21 @@
     <bean id="user" class="com.wzp.spring.ioc.overview.domain.User">
         <property name="id" value="1"/>
         <property name="name" value="小帅哥"/>
-        <property name="city" value="HANGZHOU"/>
-        <property name="workCities" value="BEIJING,HANGZHOU"/>
-        <property name="lifeCities">
-            <list>
-                <value>BEIJING</value>
-                <value>SHANGHAI</value>
-            </list>
-        </property>
+<!--        <property name="city" value="HANGZHOU"/>-->
+<!--        <property name="workCities" value="BEIJING,HANGZHOU"/>-->
+<!--        <property name="lifeCities">-->
+<!--            <list>-->
+<!--                <value>BEIJING</value>-->
+<!--                <value>SHANGHAI</value>-->
+<!--            </list>-->
+<!--        </property>-->
         <property name="configFileLocation" value="classpath:/META-INF/user-config.properties"/>
     </bean>
 
     <!-- 普通 beanDefinition GenericBeanDefinition -->
     <!-- 合并后 GenericBeanDefinition 变成 RootBeanDefinition，并且覆盖 parent 相关配置-->
     <!-- primary = true , 增加了一个 address 属性 -->
-    <bean id="superUser" class="com.wzp.spring.ioc.overview.domain.SuperUser" parent="user"
-          primary="true">
+    <bean id="superUser" class="com.wzp.spring.ioc.overview.domain.SuperUser" parent="user" primary="true">
         <property name="address" value="杭州"/>
     </bean>
 

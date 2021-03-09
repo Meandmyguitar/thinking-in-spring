@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/wzp/spring/annotation/HelloWorldImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/wzp/spring/annotation/HelloWorldImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/live/live.iml" beforeDir="false" afterPath="$PROJECT_DIR$/live/live.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +38,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/work/repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="$USER_HOME$/work/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -43,13 +49,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/live/src/main/java/com/wzp/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +67,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -73,13 +83,65 @@
       <recent name="$PROJECT_DIR$/live/src/main/java/com/wzp/demo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DependencyLookupDemo">
+    <configuration name="BeanCreationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.BeanCreationExceptionDemo" />
+      <module name="dependency-lookup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBinderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.data.binding.DataBinderDemo" />
+      <module name="data-binding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzp.spring.data.binding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.overview.dependency.lookup.DependencyLookupDemo" />
       <module name="ioc-container-overview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wzp.spring.ioc.overview.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyEditorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.conversion.PropertyEditorDemo" />
+      <module name="conversion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzp.spring.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResolvableDependencySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.source.ResolvableDependencySourceDemo" />
+      <module name="dependency-source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.source.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DependencyLookupDemo" />
+        <item itemvalue="Application.PropertyEditorDemo" />
+        <item itemvalue="Application.DataBinderDemo" />
+        <item itemvalue="Application.BeanCreationExceptionDemo" />
+        <item itemvalue="Application.ResolvableDependencySourceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +184,12 @@
       <workItem from="1606704088789" duration="1945000" />
       <workItem from="1606717339771" duration="26000" />
       <workItem from="1606721139697" duration="20000" />
+      <workItem from="1606789595494" duration="313000" />
+      <workItem from="1606897384620" duration="560000" />
+      <workItem from="1608789372811" duration="398000" />
+      <workItem from="1608807361141" duration="405000" />
+      <workItem from="1615197340308" duration="2198000" />
+      <workItem from="1615254239569" duration="2436000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606702790080</created>
@@ -147,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606705736733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring-fix">
+      <created>1606789770138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606789770138</updated>
+    </task>
+    <task id="LOCAL-00006" summary="spring-fix">
+      <created>1606789880937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606789880937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,57 +254,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring" />
+    <MESSAGE value="spring-fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-fix" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="189" y="-1025" key="CommitChangelistDialog2" timestamp="1606705736567">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="189" y="-1025" key="CommitChangelistDialog2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705736567" />
-    <state width="1866" height="262" key="GridCell.Tab.0.bottom" timestamp="1606717318409">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.bottom/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318409" />
-    <state width="1866" height="262" key="GridCell.Tab.0.center" timestamp="1606717318407">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.center/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318407" />
-    <state width="1866" height="262" key="GridCell.Tab.0.left" timestamp="1606717318405">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.left/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318405" />
-    <state width="1866" height="262" key="GridCell.Tab.0.right" timestamp="1606717318408">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state width="1866" height="262" key="GridCell.Tab.0.right/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606717318408" />
-    <state x="44" y="-1057" key="SettingsEditor" timestamp="1606705662401">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="44" y="-1057" key="SettingsEditor/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705662401" />
-    <state x="112" y="23" key="SettingsEditor/-105.-1057.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1606702030569" />
-    <state x="355" y="-866" key="Vcs.Push.Dialog.v2" timestamp="1606705737972">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="355" y="-866" key="Vcs.Push.Dialog.v2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705737972" />
-    <state x="635" y="-625" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606703967850">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="635" y="-625" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606703967850" />
-    <state x="512" y="-808" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606702516301">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="512" y="-808" key="com.intellij.testIntegration.createTest.CreateTestDialog/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606702516301" />
-    <state x="480" y="-820" width="1149" height="624" key="find.popup" timestamp="1606703626628">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="480" y="-820" width="1149" height="624" key="find.popup/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606703626628" />
-    <state x="565" y="-654" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606703827635">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="565" y="-654" key="git4idea.remote.GitConfigureRemotesDialog/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606703827635" />
-    <state x="65" y="-940" key="new project wizard" timestamp="1606705592060">
-      <screen x="-105" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="65" y="-940" key="new project wizard/-105.-1057.1920.1057/0.23.1440.812@-105.-1057.1920.1057" timestamp="1606705592060" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/annotation/src/main/java/com/wzp/spring/annotation/ProfileDemo.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dependency-source/src/main/java/com/wzp/spring/ioc/dependency/source/ResolvableDependencySourceDemo.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dependency-source/src/main/java/com/wzp/spring/ioc/dependency/source/ResolvableDependencySourceDemo.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
