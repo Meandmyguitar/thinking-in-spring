@@ -36,7 +36,7 @@ import org.springframework.context.annotation.PropertySource;
 public class AnnotatedYamlPropertySourceDemo {
 
     /**
-     * user.name 是 Java Properties 默认存在，当前用户：mercyblitz，而非配置文件中定义"小帅哥"
+     * user.name 是 Java Properties 默认存在，当前用户：Meandmyguitar，而非配置文件中定义"小帅哥"
      *
      * @param id
      * @param name

@@ -24,7 +24,7 @@
     <!-- java.util.Properties -->
     <util:properties id="context">
         <prop key="id">1</prop>
-        <prop key="name">mercyblitz</prop>
+        <prop key="name">Meandmyguitar</prop>
     </util:properties>
 
     <bean id="user" class="com.wzp.spring.ioc.overview.domain.User">
@@ -33,7 +33,7 @@
         <property name="context"> <!-- Properties 类型 -->
             <value>
                 id = 1
-                name = mercyblitz
+                name = Meandmyguitar
             </value>
         </property>
         <property name="contextAsText" ref="context"/> <!-- Properties -> String -->

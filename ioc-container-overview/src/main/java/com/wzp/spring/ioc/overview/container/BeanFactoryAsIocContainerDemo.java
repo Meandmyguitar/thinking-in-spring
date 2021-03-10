@@ -28,9 +28,8 @@ import java.util.Map;
  * {@link BeanFactory} 作为 IoC 容器示例
  *
  * @author wangzhengpeng
- * @since
  */
-public class BeanFactoryAsIoCContainerDemo {
+public class BeanFactoryAsIocContainerDemo {
 
     public static void main(String[] args) {
         // 创建 BeanFactory 容器

@@ -37,7 +37,7 @@ public class BeanConfigurationMetadataDemo {
 
         // BeanDefinition 的定义（声明）
         BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(User.class);
-        beanDefinitionBuilder.addPropertyValue("name", "mercyblitz");
+        beanDefinitionBuilder.addPropertyValue("name", "Meandmyguitar");
         // 获取 AbstractBeanDefinition
         AbstractBeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
         // 附加属性（不影响 Bean populate、initialize）

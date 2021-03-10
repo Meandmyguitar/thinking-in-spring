@@ -43,7 +43,7 @@ import static org.junit.Assert.assertEquals;
 )
 public class TestPropertySourceTest {
 
-    @Value("${user.name}")  // "mercyblitz" Java System Properties
+    @Value("${user.name}")  // "Meandmyguitar" Java System Properties
     private String userName;
 
     @Autowired

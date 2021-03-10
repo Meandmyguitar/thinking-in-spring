@@ -32,7 +32,6 @@ import static org.springframework.beans.factory.support.BeanDefinitionBuilder.ge
  * 注解 BeanDefinition 示例
  *
  * @author wangzhengpeng
- * @since
  */
 // 3. 通过 @Import 来进行导入
 @Import(AnnotationBeanDefinitionDemo.Config.class)
@@ -46,7 +45,7 @@ public class AnnotationBeanDefinitionDemo {
 
         // 通过 BeanDefinition 注册 API 实现
         // 1.命名 Bean 的注册方式
-        registerUserBeanDefinition(applicationContext, "mercyblitz-user");
+        registerUserBeanDefinition(applicationContext, "Meandmyguitar-user");
         // 2. 非命名 Bean 的注册方法
         registerUserBeanDefinition(applicationContext);
 

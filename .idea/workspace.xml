@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="study">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/wzp/spring/annotation/HelloWorldImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/wzp/spring/annotation/HelloWorldImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/src/main/java/com/wzp/spring/bean/lifecycle/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/bean-lifecycle/src/main/java/com/wzp/spring/bean/lifecycle/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/AnnotatedSpringIoCContainerMetadataConfigurationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/AnnotatedSpringIoCContainerMetadataConfigurationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/AnnotatedYamlPropertySourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/AnnotatedYamlPropertySourceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/BeanConfigurationMetadataDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/BeanConfigurationMetadataDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/PropertySourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/PropertySourceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversion/src/main/resources/META-INF/property-editors-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/src/main/resources/META-INF/property-editors-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment/src/main/java/com/wzp/spring/environment/EnvironmentPropertySourceChangeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/environment/src/main/java/com/wzp/spring/environment/EnvironmentPropertySourceChangeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment/src/main/java/com/wzp/spring/environment/ValueAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/environment/src/main/java/com/wzp/spring/environment/ValueAnnotationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment/src/main/resources/META-INF/placeholders-resolver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/environment/src/main/resources/META-INF/placeholders-resolver.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment/src/test/java/com/wzp/spring/environment/TestPropertySourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/environment/src/test/java/com/wzp/spring/environment/TestPropertySourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/src/main/resources/META-INF/msg.properties" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/src/main/resources/META-INF/msg.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/container/BeanFactoryAsIoCContainerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/container/BeanFactoryAsIocContainerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live/live.iml" beforeDir="false" afterPath="$PROJECT_DIR$/live/live.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/AnnotationBeanDefinitionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/AnnotationBeanDefinitionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/BeanDefinitionCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/BeanDefinitionCreationDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +78,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -83,13 +94,13 @@
       <recent name="$PROJECT_DIR$/live/src/main/java/com/wzp/demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DependencyLookupDemo">
-    <configuration name="BeanCreationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.BeanCreationExceptionDemo" />
-      <module name="dependency-lookup" />
+  <component name="RunManager" selected="Application.BeanDefinitionCreationDemo">
+    <configuration name="AnnotationApplicationContextAsIoCContainerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.overview.container.AnnotationApplicationContextAsIoCContainerDemo" />
+      <module name="ioc-container-overview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="com.wzp.spring.ioc.overview.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBinderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.data.binding.DataBinderDemo" />
-      <module name="data-binding" />
+    <configuration name="BeanDefinitionCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.bean.definition.BeanDefinitionCreationDemo" />
+      <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.data.binding.*" />
+          <option name="PATTERN" value="com.wzp.spring.bean.definition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryAsIocContainerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.overview.container.BeanFactoryAsIocContainerDemo" />
+      <module name="ioc-container-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzp.spring.ioc.overview.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResolvableDependencySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.source.ResolvableDependencySourceDemo" />
-      <module name="dependency-source" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -164,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanDefinitionCreationDemo" />
+        <item itemvalue="Application.AnnotationApplicationContextAsIoCContainerDemo" />
+        <item itemvalue="Application.BeanFactoryAsIocContainerDemo" />
         <item itemvalue="Application.DependencyLookupDemo" />
         <item itemvalue="Application.PropertyEditorDemo" />
-        <item itemvalue="Application.DataBinderDemo" />
-        <item itemvalue="Application.BeanCreationExceptionDemo" />
-        <item itemvalue="Application.ResolvableDependencySourceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +200,10 @@
       <workItem from="1608789372811" duration="398000" />
       <workItem from="1608807361141" duration="405000" />
       <workItem from="1615197340308" duration="2198000" />
-      <workItem from="1615254239569" duration="2436000" />
+      <workItem from="1615254239569" duration="2768000" />
+      <workItem from="1615264373695" duration="50000" />
+      <workItem from="1615264432199" duration="2507000" />
+      <workItem from="1615340992406" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606702790080</created>
@@ -233,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606789880937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="study">
+      <created>1615257255961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615257255961</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,10 +273,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="first" />
     <MESSAGE value="spring" />
     <MESSAGE value="spring-fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-fix" />
+    <MESSAGE value="study" />
+    <option name="LAST_COMMIT_MESSAGE" value="study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

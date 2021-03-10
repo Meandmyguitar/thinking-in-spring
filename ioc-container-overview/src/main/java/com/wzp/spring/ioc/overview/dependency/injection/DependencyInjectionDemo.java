@@ -58,7 +58,7 @@ public class DependencyInjectionDemo {
         System.out.println("获取 Environment 类型的 Bean：" + environment);
     }
 
-    private static void whoIsIoCContainer(UserRepository userRepository, ApplicationContext applicationContext) {
+    private static void whoIsIocContainer(UserRepository userRepository, ApplicationContext applicationContext) {
 
 
         // ConfigurableApplicationContext <- ApplicationContext <- BeanFactory

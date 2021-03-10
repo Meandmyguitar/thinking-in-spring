@@ -41,7 +41,7 @@ public class ValueAnnotationDemo {
 
         ValueAnnotationDemo valueAnnotationDemo = context.getBean(ValueAnnotationDemo.class);
 
-        System.out.println(valueAnnotationDemo.userName); // "mercyblitz"
+        System.out.println(valueAnnotationDemo.userName); // "Meandmyguitar"
 
         // 关闭 Spring 应用上下文
         context.close();

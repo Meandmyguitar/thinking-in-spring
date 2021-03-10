@@ -36,7 +36,7 @@ public class EnvironmentPropertySourceChangeDemo {
     private String userName;
 
     // PropertySource("first-property-source") { user.name = 小帅哥}
-    // PropertySource( Java System Properties) { user.name = mercyblitz }
+    // PropertySource( Java System Properties) { user.name = Meandmyguitar }
 
     public static void main(String[] args) {
 

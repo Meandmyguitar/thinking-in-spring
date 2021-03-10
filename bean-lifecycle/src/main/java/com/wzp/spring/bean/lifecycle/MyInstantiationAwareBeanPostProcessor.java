@@ -46,7 +46,7 @@ class MyInstantiationAwareBeanPostProcessor implements InstantiationAwareBeanPos
         if (ObjectUtils.nullSafeEquals("user", beanName) && User.class.equals(bean.getClass())) {
             User user = (User) bean;
             user.setId(2L);
-            user.setName("mercyblitz");
+            user.setName("Meandmyguitar");
             // "user" 对象不允许属性赋值（填入）（配置元信息 -> 属性值）
             return false;
         }
