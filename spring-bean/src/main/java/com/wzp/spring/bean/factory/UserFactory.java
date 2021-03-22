@@ -29,4 +29,5 @@ public interface UserFactory {
     default User createUser() {
         return User.createUser();
     }
+
 }

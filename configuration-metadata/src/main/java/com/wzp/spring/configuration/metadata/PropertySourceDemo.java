@@ -56,7 +56,7 @@ public class PropertySourceDemo {
         // 扩展 Environment 中的 PropertySources
         // 添加 PropertySource 操作必须在 refresh 方法之前完成
         Map<String, Object> propertiesSource = new HashMap<>();
-        propertiesSource.put("user.name", "xiaoshuaige");
+        propertiesSource.put("user.name", "Meandmyguitar");
         org.springframework.core.env.PropertySource propertySource = new MapPropertySource("first-property-source", propertiesSource);
         context.getEnvironment().getPropertySources().addFirst(propertySource);
 

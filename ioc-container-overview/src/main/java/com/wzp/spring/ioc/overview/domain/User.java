@@ -30,7 +30,6 @@ import java.util.Properties;
  * 用户类
  *
  * @author wangzhengpeng
- * @since
  */
 public class User implements BeanNameAware {
 

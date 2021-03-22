@@ -27,7 +27,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * 层次性依赖查找示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class HierarchicalDependencyLookupDemo {
 
@@ -47,9 +46,12 @@ public class HierarchicalDependencyLookupDemo {
 //        System.out.println("当前 BeanFactory 的 Parent BeanFactory ： " + beanFactory.getParentBeanFactory());
 
         displayContainsLocalBean(beanFactory, "user");
+        System.out.println();
         displayContainsLocalBean(parentBeanFactory, "user");
+        System.out.println();
 
         displayContainsBean(beanFactory, "user");
+        System.out.println();
         displayContainsBean(parentBeanFactory, "user");
 
         // 启动应用上下文

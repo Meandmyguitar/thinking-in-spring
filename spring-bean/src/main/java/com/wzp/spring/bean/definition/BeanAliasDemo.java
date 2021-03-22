@@ -24,7 +24,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Bean 别名示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class BeanAliasDemo {
 
@@ -32,9 +31,9 @@ public class BeanAliasDemo {
         // 配置 XML 配置文件
         // 启动 Spring 应用上下文
         BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath:/META-INF/bean-definitions-context.xml");
-        // 通过别名 xiaoshuaige-user 获取曾用名 user 的 bean
+        // 通过别名 Meandmyguitar-user 获取曾用名 user 的 bean
         User user = beanFactory.getBean("user", User.class);
-        User xiaoshuaigeUser = beanFactory.getBean("xiaoshuaige-user", User.class);
-        System.out.println("xiaoshuaige-user 是否与 user Bean 相同：" + (user == xiaoshuaigeUser));
+        User MeandmyguitarUser = beanFactory.getBean("Meandmyguitar-user", User.class);
+        System.out.println("Meandmyguitar-user 是否与 user Bean 相同：" + (user == MeandmyguitarUser));
     }
 }

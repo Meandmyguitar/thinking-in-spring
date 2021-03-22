@@ -26,11 +26,12 @@ import javax.annotation.PreDestroy;
  * 默认 {@link UserFactory} 实现
  *
  * @author wangzhengpeng
- * @since
  */
 public class DefaultUserFactory implements UserFactory, InitializingBean, DisposableBean {
 
-    // 1. 基于 @PostConstruct 注解
+    /**
+     * 1. 基于 @PostConstruct 注解
+     */
     @PostConstruct
     public void init() {
         System.out.println("@PostConstruct : UserFactory 初始化中...");
