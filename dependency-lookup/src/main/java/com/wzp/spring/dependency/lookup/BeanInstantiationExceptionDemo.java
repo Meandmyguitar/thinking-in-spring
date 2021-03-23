@@ -25,7 +25,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * {@link BeanInstantiationException} 实例
  *
  * @author wangzhengpeng
- * @since
  */
 public class BeanInstantiationExceptionDemo {
 

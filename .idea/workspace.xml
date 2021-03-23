@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/dependency-lookup/README.md" afterDir="false" />
+    <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/PropertySourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/src/main/java/com/wzp/spring/configuration/metadata/PropertySourceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/HierarchicalDependencyLookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/HierarchicalDependencyLookupDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/ObjectProviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/ObjectProviderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/src/main/resources/META-INF/msg.properties" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/src/main/resources/META-INF/msg.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/wzp/spring/ioc/overview/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/AnnotationBeanDefinitionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/AnnotationBeanDefinitionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/BeanAliasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/definition/BeanAliasDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/factory/DefaultUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/factory/DefaultUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/factory/UserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/factory/UserFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/java/com/wzp/spring/bean/factory/UserFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean/src/main/resources/META-INF/bean-definitions-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/META-INF/bean-definitions-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-lookup/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanCreationExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanCreationExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanInstantiationExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanInstantiationExceptionDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +79,13 @@
       <recent name="$PROJECT_DIR$/live/src/main/java/com/wzp/demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeSafetyDependencyLookupDemo">
-    <configuration name="AnnotationApplicationContextAsIoCContainerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.overview.container.AnnotationApplicationContextAsIoCContainerDemo" />
-      <module name="ioc-container-overview" />
+  <component name="RunManager" selected="Application.BeanCreationExceptionDemo">
+    <configuration name="BeanCreationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.BeanCreationExceptionDemo" />
+      <module name="dependency-lookup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.ioc.overview.container.*" />
+          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanDefinitionCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.bean.definition.BeanDefinitionCreationDemo" />
-      <module name="spring-bean" />
+    <configuration name="BeanInstantiationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.BeanInstantiationExceptionDemo" />
+      <module name="dependency-lookup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.bean.definition.*" />
+          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HierarchicalDependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.HierarchicalDependencyLookupDemo" />
+    <configuration name="NoUniqueBeanDefinitionExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.NoUniqueBeanDefinitionExceptionDemo" />
       <module name="dependency-lookup" />
       <extension name="coverage">
         <pattern>
@@ -154,24 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanCreationExceptionDemo" />
+        <item itemvalue="Application.BeanInstantiationExceptionDemo" />
+        <item itemvalue="Application.NoUniqueBeanDefinitionExceptionDemo" />
         <item itemvalue="Application.TypeSafetyDependencyLookupDemo" />
         <item itemvalue="Application.ObjectProviderDemo" />
-        <item itemvalue="Application.HierarchicalDependencyLookupDemo" />
-        <item itemvalue="Application.BeanDefinitionCreationDemo" />
-        <item itemvalue="Application.AnnotationApplicationContextAsIoCContainerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +191,8 @@
       <workItem from="1615340992406" duration="1821000" />
       <workItem from="1615859276657" duration="1700000" />
       <workItem from="1616376299739" duration="1984000" />
-      <workItem from="1616378321253" duration="711000" />
+      <workItem from="1616378321253" duration="849000" />
+      <workItem from="1616460941183" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606702790080</created>
@@ -256,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615341353633</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix">
+      <created>1616379163358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616379163358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +283,8 @@
     <MESSAGE value="spring" />
     <MESSAGE value="spring-fix" />
     <MESSAGE value="study" />
-    <option name="LAST_COMMIT_MESSAGE" value="study" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

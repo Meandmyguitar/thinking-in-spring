@@ -27,7 +27,6 @@ import javax.annotation.PostConstruct;
  * {@link BeanCreationException} 示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class BeanCreationExceptionDemo {
 
@@ -48,10 +47,7 @@ public class BeanCreationExceptionDemo {
 
     static class POJO implements InitializingBean {
 
-        @PostConstruct // CommonAnnotationBeanPostProcessor
-        public void init() throws Throwable {
-            throw new Throwable("init() : For purposes...");
-        }
+
 
         @Override
         public void afterPropertiesSet() throws Exception {
