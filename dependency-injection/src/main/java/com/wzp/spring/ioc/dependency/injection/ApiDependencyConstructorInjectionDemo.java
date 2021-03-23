@@ -25,7 +25,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * 基于 API 实现依赖 Constructor 注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class ApiDependencyConstructorInjectionDemo {
 

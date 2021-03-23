@@ -28,7 +28,6 @@ import javax.annotation.Resource;
  * 基于 Java 注解的依赖方法注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class AnnotationDependencyMethodInjectionDemo {
 

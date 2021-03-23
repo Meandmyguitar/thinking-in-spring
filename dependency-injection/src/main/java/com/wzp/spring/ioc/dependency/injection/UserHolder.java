@@ -22,7 +22,6 @@ import com.wzp.spring.ioc.overview.domain.User;
  * {@link User} 的 Holder 类
  *
  * @author wangzhengpeng
- * @since
  */
 public class UserHolder {
 

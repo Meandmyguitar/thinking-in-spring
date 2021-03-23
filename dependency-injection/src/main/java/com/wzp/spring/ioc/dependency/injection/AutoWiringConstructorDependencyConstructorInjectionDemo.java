@@ -23,7 +23,6 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
  * "constructor" Autowiring 依赖构造器注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class AutoWiringConstructorDependencyConstructorInjectionDemo {
 

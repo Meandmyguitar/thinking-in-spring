@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa92efb-14df-46f2-b1ae-eb192fcf9727" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dependency-injection/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-lookup/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanCreationExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanCreationExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanInstantiationExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/com/wzp/spring/dependency/lookup/BeanInstantiationExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyConstructorInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyFieldInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyFieldInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyInjectionResolutionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyInjectionResolutionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyMethodInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencyMethodInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencySetterInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AnnotationDependencySetterInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/ApiDependencyConstructorInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/ApiDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/ApiDependencySetterInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/ApiDependencySetterInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AutoWiringByNameDependencySetterInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AutoWiringByNameDependencySetterInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AutoWiringConstructorDependencyConstructorInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AutoWiringConstructorDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/UserHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/UserHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF/dependency-setter-injection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF/dependency-setter-injection.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -79,13 +88,13 @@
       <recent name="$PROJECT_DIR$/live/src/main/java/com/wzp/demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanCreationExceptionDemo">
-    <configuration name="BeanCreationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.BeanCreationExceptionDemo" />
-      <module name="dependency-lookup" />
+  <component name="RunManager" selected="Application.AwareInterfaceDependencyInjectionDemo">
+    <configuration name="AnnotationDependencyFieldInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.injection.AnnotationDependencyFieldInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanInstantiationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.BeanInstantiationExceptionDemo" />
-      <module name="dependency-lookup" />
+    <configuration name="AnnotationDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.injection.AnnotationDependencySetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoUniqueBeanDefinitionExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.NoUniqueBeanDefinitionExceptionDemo" />
-      <module name="dependency-lookup" />
+    <configuration name="ApiDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.injection.ApiDependencySetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectProviderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.ObjectProviderDemo" />
-      <module name="dependency-lookup" />
+    <configuration name="AwareInterfaceDependencyInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.injection.AwareInterfaceDependencyInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeSafetyDependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.dependency.lookup.TypeSafetyDependencyLookupDemo" />
-      <module name="dependency-lookup" />
+    <configuration name="XmlDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzp.spring.ioc.dependency.injection.XmlDependencySetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzp.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="com.wzp.spring.ioc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeanCreationExceptionDemo" />
-        <item itemvalue="Application.BeanInstantiationExceptionDemo" />
-        <item itemvalue="Application.NoUniqueBeanDefinitionExceptionDemo" />
-        <item itemvalue="Application.TypeSafetyDependencyLookupDemo" />
-        <item itemvalue="Application.ObjectProviderDemo" />
+        <item itemvalue="Application.AwareInterfaceDependencyInjectionDemo" />
+        <item itemvalue="Application.AnnotationDependencyFieldInjectionDemo" />
+        <item itemvalue="Application.ApiDependencySetterInjectionDemo" />
+        <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
+        <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +201,7 @@
       <workItem from="1615859276657" duration="1700000" />
       <workItem from="1616376299739" duration="1984000" />
       <workItem from="1616378321253" duration="849000" />
-      <workItem from="1616460941183" duration="1575000" />
+      <workItem from="1616460941183" duration="5414000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606702790080</created>
@@ -257,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616379163358</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dependency-lookup">
+      <created>1616462895897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616462895898</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +300,8 @@
     <MESSAGE value="spring-fix" />
     <MESSAGE value="study" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="dependency-lookup" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency-lookup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,6 +320,11 @@
           <url>file://$PROJECT_DIR$/dependency-source/src/main/java/com/wzp/spring/ioc/dependency/source/ResolvableDependencySourceDemo.java</url>
           <line>53</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dependency-injection/src/main/java/com/wzp/spring/ioc/dependency/injection/AwareInterfaceDependencyInjectionDemo.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

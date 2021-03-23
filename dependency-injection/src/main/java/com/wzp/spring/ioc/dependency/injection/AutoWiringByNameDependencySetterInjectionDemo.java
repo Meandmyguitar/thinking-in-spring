@@ -23,7 +23,6 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
  * "byName" Autowiring 依赖 Setter 方法注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class AutoWiringByNameDependencySetterInjectionDemo {
 

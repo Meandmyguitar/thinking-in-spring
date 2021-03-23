@@ -25,7 +25,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * 基于 API 实现依赖 Setter 方法注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class ApiDependencySetterInjectionDemo {
 
@@ -59,7 +58,7 @@ public class ApiDependencySetterInjectionDemo {
     /**
      * 为 {@link UserHolder} 生成 {@link BeanDefinition}
      *
-     * @return
+     * @return {@link BeanDefinition}
      */
     private static BeanDefinition createUserHolderBeanDefinition() {
         BeanDefinitionBuilder definitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(UserHolder.class);

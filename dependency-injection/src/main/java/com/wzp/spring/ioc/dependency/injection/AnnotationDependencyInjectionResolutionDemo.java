@@ -35,7 +35,6 @@ import java.util.*;
  *
  * @author wangzhengpeng
  * @see Qualifier
- * @since
  */
 @Configuration
 public class AnnotationDependencyInjectionResolutionDemo {

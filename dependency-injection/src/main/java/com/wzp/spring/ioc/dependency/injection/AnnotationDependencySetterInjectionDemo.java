@@ -25,7 +25,6 @@ import org.springframework.context.annotation.Bean;
  * 基于 Java 注解的依赖 Setter 方法注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class AnnotationDependencySetterInjectionDemo {
 

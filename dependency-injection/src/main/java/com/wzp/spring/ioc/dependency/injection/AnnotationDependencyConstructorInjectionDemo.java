@@ -25,7 +25,6 @@ import org.springframework.context.annotation.Bean;
  * 基于 Java 注解的依赖 Constructor 注入示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class AnnotationDependencyConstructorInjectionDemo {
 
