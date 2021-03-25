@@ -30,7 +30,6 @@ import javax.annotation.PostConstruct;
  * 依赖来源示例
  *
  * @author wangzhengpeng
- * @since
  */
 public class DependencySourceDemo {
 

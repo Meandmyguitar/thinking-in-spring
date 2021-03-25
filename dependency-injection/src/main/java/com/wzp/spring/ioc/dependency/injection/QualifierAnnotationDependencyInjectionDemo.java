@@ -71,7 +71,6 @@ public class QualifierAnnotationDependencyInjectionDemo {
     @Qualifier // 进行逻辑分组
     public static User user2() {
         return createUser(8L);
-
     }
 
     @Bean
@@ -115,13 +114,12 @@ public class QualifierAnnotationDependencyInjectionDemo {
         System.out.println("demo.user = " + demo.user);
         // 期待输出 user Bean
         System.out.println("demo.namedUser = " + demo.namedUser);
-        // 期待输出 superUser user user1 user2
+        // 期待输出 superUser user user1 user2 user3 user4
         System.out.println("demo.allUsers = " + demo.allUsers);
-        // 期待输出 user1 user2
+        // 期待输出 user2 user3 user4
         System.out.println("demo.qualifiedUsers = " + demo.qualifiedUsers);
         // 期待输出 user3 user4
         System.out.println("demo.groupedUsers = " + demo.groupedUsers);
-
 
         // 显示地关闭 Spring 应用上下文
         applicationContext.close();

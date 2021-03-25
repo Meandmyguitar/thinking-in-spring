@@ -28,7 +28,10 @@ import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 
 import javax.inject.Inject;
+import java.lang.annotation.Annotation;
 import java.util.*;
+
+import static org.springframework.context.annotation.AnnotationConfigUtils.AUTOWIRED_ANNOTATION_PROCESSOR_BEAN_NAME;
 
 /**
  * 注解驱动的依赖注入处理过程
@@ -69,7 +72,7 @@ public class AnnotationDependencyInjectionResolutionDemo {
 //        AutowiredAnnotationBeanPostProcessor beanPostProcessor = new AutowiredAnnotationBeanPostProcessor();
 //        // @Autowired + @Inject +  新注解 @InjectedUser
 //        Set<Class<? extends Annotation>> autowiredAnnotationTypes =
-//                new LinkedHashSet<>(asList(Autowired.class, Inject.class, InjectedUser.class));
+//                new LinkedHashSet<>(Arrays.asList(Autowired.class, Inject.class, InjectedUser.class));
 //        beanPostProcessor.setAutowiredAnnotationTypes(autowiredAnnotationTypes);
 //        return beanPostProcessor;
 //    }
@@ -79,6 +82,7 @@ public class AnnotationDependencyInjectionResolutionDemo {
     @Scope
     public static AutowiredAnnotationBeanPostProcessor beanPostProcessor() {
         AutowiredAnnotationBeanPostProcessor beanPostProcessor = new AutowiredAnnotationBeanPostProcessor();
+        // 替换原有的注解处理
         beanPostProcessor.setAutowiredAnnotationType(InjectedUser.class);
         return beanPostProcessor;
     }
@@ -112,7 +116,6 @@ public class AnnotationDependencyInjectionResolutionDemo {
         System.out.println("demo.userOptional = " + demo.userOptional);
         // 期待输出 superUser Bean
         System.out.println("demo.myInjectedUser = " + demo.myInjectedUser);
-
 
         // 显示地关闭 Spring 应用上下文
         applicationContext.close();
